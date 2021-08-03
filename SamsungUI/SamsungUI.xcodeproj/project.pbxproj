@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFF8980826B9602800AFC2B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF8980726B9602800AFC2B0 /* AppDelegate.swift */; };
+		EFF8980A26B9602800AFC2B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF8980926B9602800AFC2B0 /* SceneDelegate.swift */; };
+		EFF8980C26B9602800AFC2B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF8980B26B9602800AFC2B0 /* ViewController.swift */; };
+		EFF8980F26B9602800AFC2B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF8980D26B9602800AFC2B0 /* Main.storyboard */; };
+		EFF8981126B9602900AFC2B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFF8981026B9602900AFC2B0 /* Assets.xcassets */; };
+		EFF8981426B9602900AFC2B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF8981226B9602900AFC2B0 /* LaunchScreen.storyboard */; };
+		EFF8981F26B9602900AFC2B0 /* SamsungUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF8981E26B9602900AFC2B0 /* SamsungUITests.swift */; };
+		EFF8982A26B9602900AFC2B0 /* SamsungUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF8982926B9602900AFC2B0 /* SamsungUIUITests.swift */; };
+		EFF8983826B9603200AFC2B0 /* Ancher.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF8983726B9603200AFC2B0 /* Ancher.swift */; };
+		EFF8983A26B9605600AFC2B0 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF8983926B9605600AFC2B0 /* ProductModel.swift */; };
+		EFF8983E26B9626C00AFC2B0 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF8983D26B9626C00AFC2B0 /* CustomTableViewCell.swift */; };
+		EFF8984026B962CE00AFC2B0 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF8983F26B962CE00AFC2B0 /* Parser.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFF8981B26B9602900AFC2B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFF897FC26B9602800AFC2B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFF8980326B9602800AFC2B0;
+			remoteInfo = SamsungUI;
+		};
+		EFF8982626B9602900AFC2B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFF897FC26B9602800AFC2B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFF8980326B9602800AFC2B0;
+			remoteInfo = SamsungUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFF8980426B9602800AFC2B0 /* SamsungUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SamsungUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFF8980726B9602800AFC2B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFF8980926B9602800AFC2B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EFF8980B26B9602800AFC2B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFF8980E26B9602800AFC2B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFF8981026B9602900AFC2B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFF8981326B9602900AFC2B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFF8981526B9602900AFC2B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFF8981A26B9602900AFC2B0 /* SamsungUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SamsungUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFF8981E26B9602900AFC2B0 /* SamsungUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamsungUITests.swift; sourceTree = "<group>"; };
+		EFF8982026B9602900AFC2B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFF8982526B9602900AFC2B0 /* SamsungUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SamsungUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFF8982926B9602900AFC2B0 /* SamsungUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamsungUIUITests.swift; sourceTree = "<group>"; };
+		EFF8982B26B9602900AFC2B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFF8983726B9603200AFC2B0 /* Ancher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Ancher.swift; path = ../../../Ancher.swift; sourceTree = "<group>"; };
+		EFF8983926B9605600AFC2B0 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		EFF8983D26B9626C00AFC2B0 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		EFF8983F26B962CE00AFC2B0 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFF8980126B9602800AFC2B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF8981726B9602900AFC2B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF8982226B9602900AFC2B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFF897FB26B9602800AFC2B0 = {
+			isa = PBXGroup;
+			children = (
+				EFF8980626B9602800AFC2B0 /* SamsungUI */,
+				EFF8981D26B9602900AFC2B0 /* SamsungUITests */,
+				EFF8982826B9602900AFC2B0 /* SamsungUIUITests */,
+				EFF8980526B9602800AFC2B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFF8980526B9602800AFC2B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFF8980426B9602800AFC2B0 /* SamsungUI.app */,
+				EFF8981A26B9602900AFC2B0 /* SamsungUITests.xctest */,
+				EFF8982526B9602900AFC2B0 /* SamsungUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFF8980626B9602800AFC2B0 /* SamsungUI */ = {
+			isa = PBXGroup;
+			children = (
+				EFF8983726B9603200AFC2B0 /* Ancher.swift */,
+				EFF8980726B9602800AFC2B0 /* AppDelegate.swift */,
+				EFF8980926B9602800AFC2B0 /* SceneDelegate.swift */,
+				EFF8983926B9605600AFC2B0 /* ProductModel.swift */,
+				EFF8983F26B962CE00AFC2B0 /* Parser.swift */,
+				EFF8980B26B9602800AFC2B0 /* ViewController.swift */,
+				EFF8983D26B9626C00AFC2B0 /* CustomTableViewCell.swift */,
+				EFF8980D26B9602800AFC2B0 /* Main.storyboard */,
+				EFF8981026B9602900AFC2B0 /* Assets.xcassets */,
+				EFF8981226B9602900AFC2B0 /* LaunchScreen.storyboard */,
+				EFF8981526B9602900AFC2B0 /* Info.plist */,
+			);
+			path = SamsungUI;
+			sourceTree = "<group>";
+		};
+		EFF8981D26B9602900AFC2B0 /* SamsungUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFF8981E26B9602900AFC2B0 /* SamsungUITests.swift */,
+				EFF8982026B9602900AFC2B0 /* Info.plist */,
+			);
+			path = SamsungUITests;
+			sourceTree = "<group>";
+		};
+		EFF8982826B9602900AFC2B0 /* SamsungUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFF8982926B9602900AFC2B0 /* SamsungUIUITests.swift */,
+				EFF8982B26B9602900AFC2B0 /* Info.plist */,
+			);
+			path = SamsungUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFF8980326B9602800AFC2B0 /* SamsungUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFF8982E26B9602900AFC2B0 /* Build configuration list for PBXNativeTarget "SamsungUI" */;
+			buildPhases = (
+				EFF8980026B9602800AFC2B0 /* Sources */,
+				EFF8980126B9602800AFC2B0 /* Frameworks */,
+				EFF8980226B9602800AFC2B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SamsungUI;
+			productName = SamsungUI;
+			productReference = EFF8980426B9602800AFC2B0 /* SamsungUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFF8981926B9602900AFC2B0 /* SamsungUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFF8983126B9602900AFC2B0 /* Build configuration list for PBXNativeTarget "SamsungUITests" */;
+			buildPhases = (
+				EFF8981626B9602900AFC2B0 /* Sources */,
+				EFF8981726B9602900AFC2B0 /* Frameworks */,
+				EFF8981826B9602900AFC2B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFF8981C26B9602900AFC2B0 /* PBXTargetDependency */,
+			);
+			name = SamsungUITests;
+			productName = SamsungUITests;
+			productReference = EFF8981A26B9602900AFC2B0 /* SamsungUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFF8982426B9602900AFC2B0 /* SamsungUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFF8983426B9602900AFC2B0 /* Build configuration list for PBXNativeTarget "SamsungUIUITests" */;
+			buildPhases = (
+				EFF8982126B9602900AFC2B0 /* Sources */,
+				EFF8982226B9602900AFC2B0 /* Frameworks */,
+				EFF8982326B9602900AFC2B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFF8982726B9602900AFC2B0 /* PBXTargetDependency */,
+			);
+			name = SamsungUIUITests;
+			productName = SamsungUIUITests;
+			productReference = EFF8982526B9602900AFC2B0 /* SamsungUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFF897FC26B9602800AFC2B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					EFF8980326B9602800AFC2B0 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					EFF8981926B9602900AFC2B0 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = EFF8980326B9602800AFC2B0;
+					};
+					EFF8982426B9602900AFC2B0 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = EFF8980326B9602800AFC2B0;
+					};
+				};
+			};
+			buildConfigurationList = EFF897FF26B9602800AFC2B0 /* Build configuration list for PBXProject "SamsungUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFF897FB26B9602800AFC2B0;
+			productRefGroup = EFF8980526B9602800AFC2B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFF8980326B9602800AFC2B0 /* SamsungUI */,
+				EFF8981926B9602900AFC2B0 /* SamsungUITests */,
+				EFF8982426B9602900AFC2B0 /* SamsungUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFF8980226B9602800AFC2B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF8981426B9602900AFC2B0 /* LaunchScreen.storyboard in Resources */,
+				EFF8981126B9602900AFC2B0 /* Assets.xcassets in Resources */,
+				EFF8980F26B9602800AFC2B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF8981826B9602900AFC2B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF8982326B9602900AFC2B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFF8980026B9602800AFC2B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF8983E26B9626C00AFC2B0 /* CustomTableViewCell.swift in Sources */,
+				EFF8983826B9603200AFC2B0 /* Ancher.swift in Sources */,
+				EFF8980C26B9602800AFC2B0 /* ViewController.swift in Sources */,
+				EFF8980826B9602800AFC2B0 /* AppDelegate.swift in Sources */,
+				EFF8980A26B9602800AFC2B0 /* SceneDelegate.swift in Sources */,
+				EFF8983A26B9605600AFC2B0 /* ProductModel.swift in Sources */,
+				EFF8984026B962CE00AFC2B0 /* Parser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF8981626B9602900AFC2B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF8981F26B9602900AFC2B0 /* SamsungUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF8982126B9602900AFC2B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF8982A26B9602900AFC2B0 /* SamsungUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFF8981C26B9602900AFC2B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFF8980326B9602800AFC2B0 /* SamsungUI */;
+			targetProxy = EFF8981B26B9602900AFC2B0 /* PBXContainerItemProxy */;
+		};
+		EFF8982726B9602900AFC2B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFF8980326B9602800AFC2B0 /* SamsungUI */;
+			targetProxy = EFF8982626B9602900AFC2B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFF8980D26B9602800AFC2B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFF8980E26B9602800AFC2B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFF8981226B9602900AFC2B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFF8981326B9602900AFC2B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFF8982C26B9602900AFC2B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFF8982D26B9602900AFC2B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFF8982F26B9602900AFC2B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SamsungUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.SamsungUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFF8983026B9602900AFC2B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SamsungUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.SamsungUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFF8983226B9602900AFC2B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SamsungUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.SamsungUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SamsungUI.app/SamsungUI";
+			};
+			name = Debug;
+		};
+		EFF8983326B9602900AFC2B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SamsungUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.SamsungUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SamsungUI.app/SamsungUI";
+			};
+			name = Release;
+		};
+		EFF8983526B9602900AFC2B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SamsungUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.SamsungUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SamsungUI;
+			};
+			name = Debug;
+		};
+		EFF8983626B9602900AFC2B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SamsungUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.SamsungUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SamsungUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFF897FF26B9602800AFC2B0 /* Build configuration list for PBXProject "SamsungUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFF8982C26B9602900AFC2B0 /* Debug */,
+				EFF8982D26B9602900AFC2B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFF8982E26B9602900AFC2B0 /* Build configuration list for PBXNativeTarget "SamsungUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFF8982F26B9602900AFC2B0 /* Debug */,
+				EFF8983026B9602900AFC2B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFF8983126B9602900AFC2B0 /* Build configuration list for PBXNativeTarget "SamsungUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFF8983226B9602900AFC2B0 /* Debug */,
+				EFF8983326B9602900AFC2B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFF8983426B9602900AFC2B0 /* Build configuration list for PBXNativeTarget "SamsungUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFF8983526B9602900AFC2B0 /* Debug */,
+				EFF8983626B9602900AFC2B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFF897FC26B9602800AFC2B0 /* Project object */;
+}
